@@ -47,3 +47,27 @@ table{
     background-color: #f1f1f1;
     color: blacks;
 }
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 0;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 0;
+}
