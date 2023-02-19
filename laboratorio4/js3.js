@@ -16,5 +16,6 @@ function contador(nums){
     return [negativos, positivos, ceros];
 }
 
-x=[-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-console.log(contador(x));
+x=[-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
+alert("A continuación se  le mostrará la cantidad de números negativos, positivos y ceros que generó el programa anteriormente")
+alert(contador(x));
