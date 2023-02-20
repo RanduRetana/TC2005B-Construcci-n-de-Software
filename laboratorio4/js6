@@ -1,0 +1,42 @@
+function Equipo(nombre, ciudad, estadio) {
+  this.nombre = nombre;
+  this.ciudad = ciudad;
+  this.estadio = estadio;
+  this.titulos = 0;
+  this.agregarTitulo = function() {
+    this.titulos++;
+  }
+  this.mostrarInfo = function() {
+    document.write("<tr>");
+    document.write("<td>" + this.nombre + "</td>");
+    document.write("<td>" + this.ciudad + "</td>");
+    document.write("<td>" + this.estadio + "</td>");
+    document.write("<td>" + this.titulos + "</td>");
+    document.write("</tr>");
+  }
+}
+
+// Arreglo de objetos Equipo
+let equipos = [
+  new Equipo("Barcelona", "Barcelona", "Camp Nou"),
+  new Equipo("Real Madrid", "Madrid", "Santiago Bernabeu"),
+  new Equipo("Atletico Madrid", "Madrid", "Wanda Metropolitano"),
+  new Equipo("Valencia", "Valencia", "Mestalla")
+];
+
+// Agregar títulos a algunos equipos
+equipos[0].agregarTitulo();
+equipos[0].agregarTitulo();
+equipos[1].agregarTitulo();
+equipos[1].agregarTitulo();
+equipos[1].agregarTitulo();
+equipos[2].agregarTitulo();
+
+// Mostrar información de los equipos en una tabla HTML
+document.write("<table>");
+document.write("<tr><th>Equipo</th><th>Ciudad</th><th>Estadio</th><th>Títulos</th></tr>");
+for (let i = 0; i < equipos.length; i++) {
+  equipos[i].mostrarInfo();
+}
+document.write("</table>");
+

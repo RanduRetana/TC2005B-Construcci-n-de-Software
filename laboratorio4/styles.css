@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://imagenes.elpais.com/resizer/PXZUITSh7LFAQXo1xFhJa4-Z97U=/1960x1470/filters:focal(1345x592:1355x602)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/IP5UNMVVAVFW7PC2NPX6MDGHSU.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    bottom: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Add borders to the cells */
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Style the header row */
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Add alternate background colors to the rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add some space between the cells */
+  td:not(:last-child), th:not(:last-child) {
+    margin-right: 8px;
+  }
