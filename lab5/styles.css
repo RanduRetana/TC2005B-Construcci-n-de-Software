@@ -1,8 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Path: lab5\index.html */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 
+body{
+    background-color: #da855d;
+    background: cover;
+}    
+.beige{
+    color: #F5F5DC;
+}
 

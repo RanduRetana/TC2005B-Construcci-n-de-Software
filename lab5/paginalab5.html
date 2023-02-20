@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Página personal</title>
-    <link rel="stylesheet" href="styles.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1><center>Marco Randu Retana Vargas</center></h1>
-    <h2><center>Tengo 20 años y estoy estudiando la carrera de Ingeniería en Tecnologías Computacionales</center></h2>
-    <h3>INTRODUCIR CALIFICACIÓN: <input type="text" id="comment" name="comment" value="100"></input></h3>
-    <center><table>
-        <tr>
+    <h1 class="title has-text-primary"><center>Marco Randu Retana Vargas</center></h1>
+    <h2 class="subtitle has-text-primary-light"><center>Tengo 20 años y estoy estudiando la carrera de Ingeniería en Tecnologías Computacionales</center></h2>
+    <h3>INTRODUCIR CALIFICACIÓN: <input class="input" type="text" id="comment" name="comment" value="100"></input></h3>
+    <center><table class="table">
+        <tr class="is-selected">
           <th>Experiencia</th>
           <th>Fecha inicio</th>
           <th>Fecha fin</th>
@@ -33,26 +32,26 @@
           <td>NOV 2021</td>
         </tr>
       </table></center>
-    <ul>
-        <li>
+    <ul class="has-bullets">
+        <li class="has-text-centered">
             <details>
             <summary>Como ingeniero de software ¿cuál es tu recomendación sobre el uso de !important en un CSS? </summary>
             <p>Es importante tener en cuenta si el navegador para el que queremos usar !imporant soporta la propiedad, pues no todos lo hacen.</p>
         </details>
         </li>
-        <li>
+        <li class="has-text-centered">
             <details>
                 <summary>Si se pone una imagen de fondo en una página HTML, ¿por qué debe escogerse con cuidado?</summary>
                 <p>Se tiene que tomar en cuenta el tamaño de la foto que se quiere usar y si queremos que abarque todo el espacio o no.</p>
             </details>
         </li>
-        <li>
+        <li class="has-text-centered">
             <details>
                 <summary>Como ingeniero de software, ¿cuál es tu recomendación al elegir las unidades de un propiedad de estilo entre %, px y pt?</summary>
                 <p>Es recomendable utilizar % cuando queremos ocupar un porcentaje de la pantalla independientemente del tamaño de la misma, mientras que px se refiere a un número de pixeles y pt un número de puntos para la impresión</p>
             </details>
         </li>
-        <li>
+        <li class="has-text-centered">
             <details>
                 <summary>¿Por qué el uso de una versión minimizada del CSS mejora el rendimiento del sitio?</summary>
                 <p>Porque representa menos espacio que leer y menores tamaños de archivos</p>
