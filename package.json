@@ -1,0 +1,32 @@
+{
+  "name": "tc2005b-construcci-n-de-software",
+  "version": "1.0.0",
+  "description": "Express laboratorio 11",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./claseEXPRESS/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RanduRetana/TC2005B-Construcci-n-de-Software.git"
+  },
+  "keywords": [
+    "Tec",
+    "Software",
+    "Teus"
+  ],
+  "author": "Marco Randu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RanduRetana/TC2005B-Construcci-n-de-Software/issues"
+  },
+  "homepage": "https://github.com/RanduRetana/TC2005B-Construcci-n-de-Software#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
