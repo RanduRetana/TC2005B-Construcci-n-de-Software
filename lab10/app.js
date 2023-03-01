@@ -17,7 +17,7 @@ let handleRequest = (request, response) => {
         });
     }
     else if(request.url==="/opciones"){
-        response.write("SEXOOOOO");
+        response.write("AASDFASDF");
         response.end();
         
     }
