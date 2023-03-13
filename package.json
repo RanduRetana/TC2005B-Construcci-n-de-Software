@@ -4,7 +4,7 @@
   "description": "Express laboratorio 11",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./claseEXPRESS/app.js",
+    "start": "nodemon ./lab10/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,7 +26,11 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "2": "^3.0.0",
     "body-parser": "^1.20.2",
-    "express": "^4.18.2"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1"
   }
 }

@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/opciones" method="post">
+    <form action="/despues" method="post">
         <fieldset><legend>Cómo te sientes hoy?</legend>
         <div><input checked type="radio" id="bien" value="bien" name="estado"><label for="bien">Bien</label></div>
         <div><input type="radio" id="mal" value="mal" name="estado"><label for="mal">Mal</label></div>
@@ -16,7 +16,7 @@
         <label for="razon">Por qué te sientes así?</label>
         <div><input type="text" id="razon"></div>
         <br>
-        <div><button>ENVIAR</button></div>
+        <div><button method="get">ENVIAR</button></div>
     </form>
 </body>
 </html>

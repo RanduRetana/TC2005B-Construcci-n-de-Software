@@ -5,7 +5,7 @@ let handleRequest = (request, response) => {
     response.writeHead(200, {
         'Content-Type': 'text/html'
     });
-    if(request.url === "/"){
+    if(request.url === "/opciones"){
         fs.readFile('./paginalab10.html', null, function (error, data) {
             if (error) {
                 response.writeHead(404);
@@ -15,14 +15,22 @@ let handleRequest = (request, response) => {
             }
             response.end();
         });
+    if(request.url === "/opciones" && request.method==="get"){
+        response.write("HOLALALALAL")
     }
-    else if(request.url==="/opciones"){
+    }
+    else if(request.url==="/despues"){
         response.write("AASDFASDF");
         response.end();
         
     }
     else if(request.url === "/inicio"){
         response.write("Bienvenido a tu psicologo ONLINE!")
+    }
+    else{
+        response.statusCode=404;
+        response.write("Lo sentimos, esa ruta no existe");
+        response.end();
     }
     
 };
